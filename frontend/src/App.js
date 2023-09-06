@@ -1,10 +1,14 @@
 import './App.css';
-import PhotoGallery from './component/PhotoGallory';
+import PhotoGallery from './PhotoGallory';
 
 function App() {
   return (
     <div>
-      <PhotoGallery className={"card"} />
+
+      <div className='card'>
+        <PhotoGallery />
+      </div>
+
     </div>
   );
 }
