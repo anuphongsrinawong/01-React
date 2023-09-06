@@ -61,7 +61,10 @@ function GalleryApp() {
             </div>
 
             {/* แสดงแกลลอรี่ */}
-            <Gallery />
+            <div className='Gallory-list'>
+                <Gallery />
+            </div>
+
 
 
 

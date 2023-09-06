@@ -3,8 +3,7 @@ import PhotoGallery from './PhotoGallory';
 
 function App() {
   return (
-    <div>
-
+    <div className='APP'>
       <div className='card'>
         <PhotoGallery />
       </div>
